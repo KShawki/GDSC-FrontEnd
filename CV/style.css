@@ -80,10 +80,35 @@ header {
   margin-top: 5px;
 }
 
+nav {
+  margin-top: 30px;
+}
+
+/* Navbar */
+nav .container{
+  display: flex;
+  border-top: 3px solid rgb(61, 61, 61);
+  border-bottom: 3px solid rgb(61, 61, 61);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+li {
+  margin: 0 10px;
+}
+
+
 /* Start Objective */
 
 section {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .section-heading {
