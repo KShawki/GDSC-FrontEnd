@@ -1,0 +1,166 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+svg {
+  width: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  border-radius: 100%;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info .mail {
+  margin-right: 5px;
+}
+
+.contact-info .phone {
+  margin-left: 5px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title p {
+  margin-top: 5px;
+}
+
+.contact-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons a {
+  margin: 0 5px;
+  margin-top: 5px;
+}
+
+/* Start Objective */
+
+section {
+  margin-top: 50px;
+}
+
+.section-heading {
+  margin: 10px 0;
+}
+
+.section-heading hr {
+  margin-top: 10px;
+}
+
+.section-heading p {
+  margin-top: 20px;
+}
+
+section p {
+  color: #6c757d;
+}
+
+.table-filed {
+  margin-bottom: 20px;
+}
+
+.table-filed .upper {
+  display: flex;
+}
+
+.table-filed .upper .left {
+  width: 80%;
+}
+
+.table-filed .upper .left h3 {
+  font-weight: 800;
+}
+
+.table-filed .upper .left h4 {
+  margin-top: 2px;
+  color: #6c757d;
+}
+
+.table-filed .upper .right {
+  width: 20%;
+  text-align: end;
+  color: #6c757d;
+}
+
+.date {
+  color: #adb5bd;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.table-filed .content {
+  width: 100%;
+  margin-top: 7px;
+  color: #6c757d;
+}
+
+
+.table-filed .content span {
+  font-weight: 700;
+  color: #212529;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  height: 50px;
+  background-color: #f5f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
