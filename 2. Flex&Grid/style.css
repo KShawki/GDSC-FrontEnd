@@ -1,0 +1,64 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+/* Reset Settings */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Global Items */
+.flex {
+  display: flex;
+}
+
+.bold {
+  font-weight: 700;
+  color: #353b48;
+}
+
+header {
+  width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 3px 3px 0px;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.logo a img {
+  width: 30px;
+}
+
+.profile img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+li {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #7f8fa6;
+}
